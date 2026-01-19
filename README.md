@@ -23,7 +23,7 @@ graph TD
     end
 
     subgraph Perception ["Perception System"]
-        Worker[BioVisionWorker (Web Worker)]
+        Worker["BioVisionWorker (Web Worker)"]
         Analyzer[AudioInputAnalyzer]
         
         Webcam --> Worker
